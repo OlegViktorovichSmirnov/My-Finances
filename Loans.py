@@ -14,7 +14,7 @@
 
 # Replenishment of the Balance
 
-Replenishment_of_the_Balance = [179.57, 51.3, 112.87, 205.54, 225.55, 3000, 1003.52, 1000.5]
+Replenishment_of_the_Balance = [179.57, 51.3, 112.87, 205.54, 225.55, 3000, 1003.52, 1000.5, 399]
 R = sum(Replenishment_of_the_Balance)
 print(f'Replenishment of the Balance: {R} USDT')
 
