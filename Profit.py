@@ -13,6 +13,7 @@ RB_duration_of_investing = 6
 RB_profit = ((RB_invested_sum*RB_profit_percentage)/100)*RB_duration_of_investing
 RB_total_sum = RB_invested_sum + RB_profit
 print(f'-----')
+print(f'Source of income is: RoboBot')
 print(f'Profit will be: {RB_profit}$')
 print(f'Duration of investment will be: {RB_duration_of_investing} month')
 print(f'Total sum will be: {RB_total_sum}$')
