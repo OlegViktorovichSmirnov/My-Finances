@@ -8,7 +8,7 @@
 # Currency is USD
 RB_invested_sum = 5000
 RB_profit_percentage = 13
-# Duration calculate in month
+# Duration calculate in months
 RB_duration_of_investing = 6
 RB_profit = ((RB_invested_sum*RB_profit_percentage)/100)*RB_duration_of_investing
 RB_total_sum = RB_invested_sum + RB_profit
