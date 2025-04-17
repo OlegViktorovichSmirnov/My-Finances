@@ -29,7 +29,7 @@ Profit = [442.42, 34.94, 163.40, 175.96, 209.93, 167.99, 100.04, 101.64, 133.34,
 P = sum(Profit)
 print(f'-------')
 
-# To show numbers in readable stile using 'Round' function
+# To show numbers in readable style using 'Round' function
 Rounded_P = round(P, 3)
 print(f'Profit: {Rounded_P} USDT')
 
@@ -47,7 +47,7 @@ Existing_Loan = Loans - LR
 if Existing_Loan > 0:
     print(f'-------')
 
-    # To show numbers in readable stile using 'Round' function
+    # To show numbers in readable style using 'Round' function
     Rounded_Existing_Loan = round(Existing_Loan, 3)
     print(f'Existing loan: {Rounded_Existing_Loan} USDT')
 else:
@@ -59,7 +59,7 @@ else:
 Balance = (R + P) - LR
 print(f'-------')
 
-# To show numbers in readable stile using 'Round' function
+# To show numbers in readable style using 'Round' function
 Rounded_Balance = round(Balance, 3)
 print(f'Balance: {Rounded_Balance} USDT')
 
